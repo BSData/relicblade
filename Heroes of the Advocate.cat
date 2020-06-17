@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="fcea-b4cc-1973-7c4b" name="Heroes of the Advocate" revision="1" battleScribeVersion="2.03" authorName="Konrad" library="false" gameSystemId="d00c-5854-e4f3-28d1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="29cf-1310-6e84-3c7f" name="Stonekin Battleborn" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="599d-15a0-bdfd-96e3" name="New CategoryLink" hidden="false" targetId="3cd4-29d3-1ace-0e2c" primary="false"/>
+        <categoryLink id="6150-73ff-d862-3a49" name="New CategoryLink" hidden="false" targetId="822c-b19a-42c3-55d8" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="269e-a9aa-32b2-9b1e" name="Cleave" hidden="false" collective="false" import="true" targetId="e34a-399f-82cd-f00e" type="selectionEntry"/>
+        <entryLink id="c4d9-0c0a-afde-f113" name="Great Weapon" hidden="false" collective="false" import="true" targetId="c746-f121-798b-74f9" type="selectionEntry"/>
+        <entryLink id="1250-26e8-2490-96f3" name="Harden" hidden="false" collective="false" import="true" targetId="58e4-42b6-1a9e-d227" type="selectionEntry"/>
+        <entryLink id="a404-c527-0a97-2cae" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8d4-dcc0-4910-5f3a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8647-db45-652a-a2bf" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3502-c52f-0776-a6b0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="57e1-a97f-bd82-7549" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc4-7c7b-dddb-ea39" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3d3f-cbdb-6f25-78c2" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4dc-70d9-37ab-fbfb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="840a-de43-d28e-a137" name="Flame Bearer" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="1d68-95d5-2f8d-8d34" name="New CategoryLink" hidden="false" targetId="af87-208c-d1c9-4dde" primary="true"/>
+        <categoryLink id="1801-6902-8438-58ab" name="Wizard" hidden="false" targetId="3cae-85d6-3d8d-f754" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6cce-42d6-fe77-f0f8" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae15-cf52-d8e7-89c3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c63b-c239-7c31-ef6d" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="324b-eb82-d85e-fe9c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fb85-e269-3285-ffc1" name="Prepared Spells" hidden="false" collective="false" import="true" targetId="1a8e-4095-833c-f2fc" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f283-42e7-67e0-21b1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ea29-c5c4-a9cc-eee6" name="Mark of Flame" hidden="false" collective="false" import="true" targetId="9774-00b3-663b-fc17" type="selectionEntry"/>
+        <entryLink id="0e2f-3cb8-ef0c-0c96" name="Fires of Teoth" hidden="false" collective="false" import="true" targetId="d238-5943-cd08-ff7f" type="selectionEntry"/>
+        <entryLink id="21c5-95e3-9b43-ad20" name="Illuminate" hidden="false" collective="false" import="true" targetId="1334-f481-e67c-8ca8" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d139-2d38-a984-e122" name="Wild Elf Geomancer" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="2aed-442c-8a0b-1d22" name="New CategoryLink" hidden="false" targetId="822c-b19a-42c3-55d8" primary="true"/>
+        <categoryLink id="9b28-737f-4942-579c" name="Wizard" hidden="false" targetId="3cae-85d6-3d8d-f754" primary="false"/>
+        <categoryLink id="40f6-31c3-667a-6b05" name="Earth" hidden="false" targetId="f1b5-bc81-00ea-470d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6adb-7048-1f71-69f7" name="Prepared Spells" hidden="false" collective="false" import="true" targetId="1a8e-4095-833c-f2fc" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd74-6bc6-afc2-00b2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e2c8-511a-424d-ea2e" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="038c-2c19-8a1f-39eb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2c35-3197-8af3-e612" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5736-7e82-58d0-8b31" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6c91-89bf-f79f-3f96" name="Erupt" hidden="false" collective="false" import="true" targetId="76ca-d592-213a-c0db" type="selectionEntry"/>
+        <entryLink id="7149-2b89-76f0-6fbe" name="Rock Spire" hidden="false" collective="false" import="true" targetId="08dd-196b-793c-19a0" type="selectionEntry"/>
+        <entryLink id="f451-a512-508f-dd5f" name="Fists of the Earth" hidden="false" collective="false" import="true" targetId="7495-5fcd-5b53-9334" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48f8-30f2-9bb5-3636" name="Gnome Alchemist" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="dea2-95a9-5760-19d0" name="New CategoryLink" hidden="false" targetId="822c-b19a-42c3-55d8" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="db75-ec90-b9d0-3817" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb9f-5ae5-cf03-d5b8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="87a8-fd48-f7f6-4074" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f498-688f-6abe-28e0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="884d-7f30-83a1-6e82" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa13-9b10-7a53-b74d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="454c-e532-429e-862e" name="Small Mounts" hidden="false" collective="false" import="true" targetId="6141-eca9-5804-00ca" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa4-33ed-7b8d-1f95" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ddb-4a8c-c49d-4daa" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="efed-ba58-9c58-23c6" name="Red Poppers" hidden="false" collective="false" import="true" targetId="eb38-e775-de14-908d" type="selectionEntry"/>
+        <entryLink id="3b98-0e9e-bd35-b0fe" name="Sour Greens" hidden="false" collective="false" import="true" targetId="6550-21e2-a417-2f0a" type="selectionEntry"/>
+        <entryLink id="d962-9053-28ea-0025" name="Small Rider" hidden="false" collective="false" import="true" targetId="903f-41e1-7c69-9f1e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a7d-4078-0de4-ef97" name="Warden of Justice" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="bc50-a2ee-7e9b-37bc" name="New CategoryLink" hidden="false" targetId="7c01-e319-330e-a1fc" primary="true"/>
+        <categoryLink id="7e55-f455-e7c4-0225" name="Knight" hidden="false" targetId="d348-be80-cdcb-6064" primary="false"/>
+        <categoryLink id="eb98-ca94-39d5-83e0" name="Holy" hidden="false" targetId="5120-5bf7-cced-9c6e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6a68-fddc-5a32-c9cf" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c11c-6b73-f6e5-e412" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c776-b7dd-5a80-2620" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5527-f116-00d1-d9ee" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a1c5-60ee-de44-75ef" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="301a-04ae-fb71-8d2e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="509e-c806-18df-fdd4" name="Prepared Spells" hidden="false" collective="false" import="true" targetId="1a8e-4095-833c-f2fc" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f2-2e37-6c64-b818" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0723-bba2-5e5a-2d31" name="Sacred Blade" hidden="false" collective="false" import="true" targetId="e9b5-24e9-ac78-7723" type="selectionEntry"/>
+        <entryLink id="0b32-7bf1-2916-96e3" name="Guardian" hidden="false" collective="false" import="true" targetId="afba-d232-6205-800f" type="selectionEntry"/>
+        <entryLink id="da1b-0b5d-d515-d35a" name="Inner Peace" hidden="false" collective="false" import="true" targetId="2065-3a7a-a6dc-66a4" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8a3-3142-1bf9-3da2" name="Lone Guard Infiltrator" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="0c23-7bb1-36b4-b82e" name="New CategoryLink" hidden="false" targetId="a71f-681e-4313-ff3b" primary="true"/>
+        <categoryLink id="6fd8-6555-4f15-c65c" name="Rogue" hidden="false" targetId="c6e9-2a3f-8124-f4d2" primary="false"/>
+        <categoryLink id="b004-2e77-938a-fa7a" name="Scout" hidden="false" targetId="97af-ab04-bc43-a6e9" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b3ea-f2fb-60e3-9414" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ad7-2d68-0ff9-53b8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d329-254c-92a8-2788" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6fe-a263-bd75-98f1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ca01-0485-f28f-de3f" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e4-90c5-5ce2-37d0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="28f7-6c10-2a8e-bea4" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded0-fc26-65ec-a52e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9b8d-d074-a932-7e85" name="Dagger" hidden="false" collective="false" import="true" targetId="da81-f63b-ec8d-35d7" type="selectionEntry"/>
+        <entryLink id="0e4e-0c59-5aea-60e1" name="Caltrops" hidden="false" collective="false" import="true" targetId="bfbb-615b-02eb-bb8f" type="selectionEntry"/>
+        <entryLink id="01ac-7f0a-8f9d-abbc" name="Razor Sharp" hidden="false" collective="false" import="true" targetId="153d-4561-f12a-052e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca2b-4531-2eff-8ad7" name="Gnome Grenadier" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="cd4e-550d-9198-1062" name="New CategoryLink" hidden="false" targetId="822c-b19a-42c3-55d8" primary="true"/>
+        <categoryLink id="4afd-7c46-2669-4ec4" name="Scout" hidden="false" targetId="97af-ab04-bc43-a6e9" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8e06-3f16-1509-a75c" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="869a-02b0-cd82-e91c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6c18-2b31-55ce-b04c" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9915-3f09-d908-f931" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c8b4-5835-4998-2ff1" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="234c-1687-7ee1-5416" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6033-7f1e-95d0-fea0" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8982-bc4d-4031-fbb2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="357c-6600-b813-2747" name="Grenade" hidden="false" collective="false" import="true" targetId="3350-b0ea-2090-cceb" type="selectionEntry"/>
+        <entryLink id="c8bd-0552-8fdb-7219" name="Gun" hidden="false" collective="false" import="true" targetId="65bd-cbc6-ff18-81ab" type="selectionEntry"/>
+        <entryLink id="ec40-f223-708c-0a12" name="Flashbang" hidden="false" collective="false" import="true" targetId="b5fa-4740-edb0-2d3e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3183-610c-43cb-e906" name="Wild Elf Witch" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="bc4b-c9c0-c93e-d1af" name="New CategoryLink" hidden="false" targetId="9680-d3ed-267a-06f0" primary="true"/>
+        <categoryLink id="07fb-fdad-bdf3-1b82" name="Nature" hidden="false" targetId="455d-569c-3170-11e5" primary="false"/>
+        <categoryLink id="6fe3-3ac8-4060-1860" name="Witch" hidden="false" targetId="cd0e-da7d-d644-b2d0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e0e0-6ba2-b588-2f6e" name="Prepared Spells" hidden="false" collective="false" import="true" targetId="1a8e-4095-833c-f2fc" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e8a-8a0c-9fa8-8ac9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="131f-dfa3-dab6-8379" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dece-59a3-8e9f-556f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5bd5-4af1-0a55-2014" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4469-9839-cf14-c4c3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8bdf-9ab8-0a6b-dee1" name="Razor Winds" hidden="false" collective="false" import="true" targetId="f39f-7a93-77e8-d067" type="selectionEntry"/>
+        <entryLink id="02ca-f396-b143-ca79" name="Chinook" hidden="false" collective="false" import="true" targetId="2903-d032-acaf-7c47" type="selectionEntry"/>
+        <entryLink id="edfe-ce7a-effb-bf8b" name="Read the Winds" hidden="false" collective="false" import="true" targetId="7449-462d-68e0-cc97" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="26.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
