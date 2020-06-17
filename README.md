@@ -1,4 +1,4 @@
-relicblade
+Relicblade
 ==================
 
 [![GitHub release](https://img.shields.io/github/release/BSData/relicblade.svg?style=flat-square)](https://github.com/BSData/relicblade/releases/latest)
