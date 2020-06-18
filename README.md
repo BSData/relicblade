@@ -42,7 +42,7 @@ Great, thank you! Now, you have some options:
 * [BattleScribe Data on Appspot][]
 * [Getting Started wiki][]
 
-[Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/relicblade
+[Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/Relicblade
 [Open Issue directly]: https://github.com/BSData/relicblade/issues
 [BattleScribe homepage]: http://www.battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
