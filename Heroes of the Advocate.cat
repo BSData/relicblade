@@ -263,4 +263,7 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="5121-9e44-8fa2-e73e" name="Neutral Characters" targetId="fe57-9db4-0afd-faab" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>

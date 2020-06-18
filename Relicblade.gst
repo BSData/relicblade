@@ -52,128 +52,21 @@
     <categoryEntry id="455d-569c-3170-11e5" name="Nature" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="7d20-b807-0772-ff0e" name="Heroes of the Advocate" hidden="false">
+    <forceEntry id="9627-8b37-b991-c647" name="Standard" hidden="false">
       <categoryLinks>
-        <categoryLink id="493e-5b96-0a46-2f4c" name="Wilderkin" hidden="false" targetId="822c-b19a-42c3-55d8" primary="false"/>
-        <categoryLink id="2ca7-00a3-e771-495c" name="Lone Guard" hidden="false" targetId="a71f-681e-4313-ff3b" primary="false"/>
-        <categoryLink id="015c-1dd0-036b-1856" name="Temple of Justice" hidden="false" targetId="7c01-e319-330e-a1fc" primary="false"/>
-        <categoryLink id="3237-7f09-fbcd-56bc" name="Lostwood Enclave" hidden="false" targetId="9680-d3ed-267a-06f0" primary="false"/>
-        <categoryLink id="f4cd-4582-677b-0575" name="Moldorf Expedition" hidden="false" targetId="0dd4-723e-d836-daa5" primary="false"/>
-        <categoryLink id="67c5-c22e-ee4f-6d64" name="Advocate(General)" hidden="false" targetId="af87-208c-d1c9-4dde" primary="false"/>
+        <categoryLink id="4809-e321-2e06-64c3" name="Advocate(General)" hidden="false" targetId="af87-208c-d1c9-4dde" primary="false"/>
+        <categoryLink id="1573-7d4b-bde2-4cd0" name="Lostwood Enclave" hidden="false" targetId="9680-d3ed-267a-06f0" primary="false"/>
+        <categoryLink id="e5a0-7d45-3c70-5b02" name="Battle Pigs" hidden="false" targetId="728d-ece6-a084-0095" primary="false"/>
+        <categoryLink id="6351-bcf0-448c-1f42" name="Apostles of the Deep" hidden="false" targetId="bfa7-69df-ad9d-8bed" primary="false"/>
+        <categoryLink id="a707-f5b8-1b5b-a087" name="Bone and Darkness" hidden="false" targetId="be0e-34ec-fbc0-ee7c" primary="false"/>
+        <categoryLink id="bef7-d447-7d0e-bad4" name="Lone Guard" hidden="false" targetId="a71f-681e-4313-ff3b" primary="false"/>
+        <categoryLink id="7b33-caa2-fe11-56aa" name="Moldorf Expedition" hidden="false" targetId="0dd4-723e-d836-daa5" primary="false"/>
+        <categoryLink id="7a3f-fd91-18fa-93b3" name="Temple of Justice" hidden="false" targetId="7c01-e319-330e-a1fc" primary="false"/>
+        <categoryLink id="2f60-0f37-703a-9327" name="The Wreteched Hive" hidden="false" targetId="a1d9-7bdb-999e-ffda" primary="false"/>
+        <categoryLink id="39c4-bb82-5238-94e7" name="Wilderkin" hidden="false" targetId="822c-b19a-42c3-55d8" primary="false"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="8571-1d85-b0c3-2287" name="Champions of the Adversary" hidden="false">
-      <categoryLinks>
-        <categoryLink id="1b98-86fd-30e8-1174" name="Battle Pigs" hidden="false" targetId="728d-ece6-a084-0095" primary="false"/>
-        <categoryLink id="5b52-481e-f8d0-3e76" name="Apostles of the Deep" hidden="false" targetId="bfa7-69df-ad9d-8bed" primary="false"/>
-        <categoryLink id="448c-a4e4-5df5-8e78" name="Bone and Darkness" hidden="false" targetId="be0e-34ec-fbc0-ee7c" primary="false"/>
-        <categoryLink id="caae-97e5-4883-84f8" name="The Wreteched Hive" hidden="false" targetId="a1d9-7bdb-999e-ffda" primary="false"/>
-        <categoryLink id="d336-dd14-930d-95e7" name="Moldorf Expedition" hidden="false" targetId="0dd4-723e-d836-daa5" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="9627-8b37-b991-c647" name="Standard" hidden="false"/>
   </forceEntries>
-  <selectionEntries>
-    <selectionEntry id="8f3f-5b7e-203e-4dae" name="Moldorf Hearthguard" hidden="false" collective="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink id="ea62-630d-610f-deef" name="New CategoryLink" hidden="false" targetId="0dd4-723e-d836-daa5" primary="true"/>
-        <categoryLink id="4cdf-340b-2da8-39f4" name="Fighter" hidden="false" targetId="79bc-4f83-454a-89e0" primary="false"/>
-        <categoryLink id="7645-3f10-e4e5-9865" name="Shield" hidden="false" targetId="736f-7d52-e3b6-8c03" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="d903-4bec-94c6-0ee8" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0007-59ad-e429-1a85" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0a8c-8d75-bfe6-7f48" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a331-8eaf-f2bb-c0c9" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a6e2-1147-0518-9a47" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a643-ed32-f246-8720" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="6ee4-0d2a-d810-51ed" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e485-6755-6a1b-cbdd" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="64e1-7e94-62c8-6989" name="War Spear" hidden="false" collective="false" import="true" targetId="e34a-399f-82cd-f00e" type="selectionEntry"/>
-        <entryLink id="d0f9-f4ad-c3b3-63fb" name="Vicious Strike" hidden="false" collective="false" import="true" targetId="2019-cfd4-c181-cd69" type="selectionEntry"/>
-        <entryLink id="2245-0831-437f-c342" name="Redoubt" hidden="false" collective="false" import="true" targetId="ae6e-b056-723f-78fb" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8bdc-05b7-a3c6-60bc" name="Moldorf Shadowfoot" hidden="false" collective="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink id="68ce-7bc9-7016-3151" name="New CategoryLink" hidden="false" targetId="0dd4-723e-d836-daa5" primary="true"/>
-        <categoryLink id="e245-a8dd-86b9-d8b4" name="Rogue" hidden="false" targetId="c6e9-2a3f-8124-f4d2" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="c01f-d21e-17b7-e774" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20f8-8257-a895-6105" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="5bbd-e179-018e-6fb9" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4123-66c8-9aa2-b7ce" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="ebf0-7d26-88fb-cc43" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="625c-04c7-eaff-a5cb" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="5fb5-f57a-407c-ce33" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f68-272c-e74f-a5d1" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="c460-e2bd-eb16-edf6" name="Dagger" hidden="false" collective="false" import="true" targetId="da81-f63b-ec8d-35d7" type="selectionEntry"/>
-        <entryLink id="6e67-5cc8-3d56-2516" name="Dual Strike" hidden="false" collective="false" import="true" targetId="51a2-39fc-5d17-a5c1" type="selectionEntry"/>
-        <entryLink id="22ed-f196-93de-84fb" name="Razor Sharp" hidden="false" collective="false" import="true" targetId="153d-4561-f12a-052e" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b551-a375-c0f5-58e0" name="Moldorf Bibliothecary" hidden="false" collective="false" import="true" type="model">
-      <categoryLinks>
-        <categoryLink id="a797-f332-7c68-506e" name="New CategoryLink" hidden="false" targetId="0dd4-723e-d836-daa5" primary="true"/>
-        <categoryLink id="5c52-e424-bf51-9537" name="Wizard" hidden="false" targetId="3cae-85d6-3d8d-f754" primary="false"/>
-        <categoryLink id="1ed7-f283-075a-11ad" name="Illusion" hidden="false" targetId="b2d9-a149-6ac7-7f0b" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="1769-694c-68fd-3021" name="Prepared Spells" hidden="false" collective="false" import="true" targetId="1a8e-4095-833c-f2fc" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7466-e085-afa9-6332" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="d23e-5ba9-bb61-146b" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f097-a63c-bf07-5b15" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="1109-1150-5d0f-1af4" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf75-0ab1-371f-6d62" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7e98-b334-6d02-b756" name="Confusion" hidden="false" collective="false" import="true" targetId="f7d9-7fdc-2436-0c36" type="selectionEntry"/>
-        <entryLink id="5420-118f-9018-f6e4" name="Dazzling Visions" hidden="false" collective="false" import="true" targetId="7b6c-a442-e2bc-bf74" type="selectionEntry"/>
-        <entryLink id="13b2-33c6-3527-f575" name="Illusory Horror" hidden="false" collective="false" import="true" targetId="730d-6b2a-aa44-04c4" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="e34a-399f-82cd-f00e" name="War Spear" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
