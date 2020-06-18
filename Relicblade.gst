@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d00c-5854-e4f3-28d1" name="Relicblade" revision="1" battleScribeVersion="2.03" authorName="Konrad" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d00c-5854-e4f3-28d1" name="Relicblade" revision="1" battleScribeVersion="2.03" authorName="Konrad" authorUrl="https://relicblade.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme></readme>
   <publications>
     <publication id="475c-bf5d-66fa-3815" name="The Seeker&apos;s Handbook"/>
   </publications>
@@ -1264,13 +1265,22 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="ee4a-85dc-0187-0964" name="Stun" hidden="false"/>
+    <rule id="ee4a-85dc-0187-0964" name="Stun" publicationId="475c-bf5d-66fa-3815" page="40" hidden="false"/>
     <rule id="e692-3dbd-a45a-581c" name="Beast" publicationId="475c-bf5d-66fa-3815" page="38" hidden="false">
       <description>Characters with the beast keyword can&apos;t pick up relics or treasure.</description>
     </rule>
-    <rule id="ab74-71fb-8904-1ce9" name="Beam X" hidden="false"/>
-    <rule id="1479-9168-5394-2c1e" name="Poison" hidden="false"/>
-    <rule id="dc3a-9b56-7539-536c" name="Shared Fate" hidden="false"/>
-    <rule id="7cf4-5379-07e1-d82b" name="Bind" hidden="false"/>
+    <rule id="ab74-71fb-8904-1ce9" name="Beam X" publicationId="475c-bf5d-66fa-3815" page="38" hidden="false"/>
+    <rule id="1479-9168-5394-2c1e" name="Poison" publicationId="475c-bf5d-66fa-3815" page="39" hidden="false"/>
+    <rule id="dc3a-9b56-7539-536c" name="Shared Fate" publicationId="475c-bf5d-66fa-3815" page="44" hidden="false"/>
+    <rule id="7cf4-5379-07e1-d82b" name="Bind" publicationId="475c-bf5d-66fa-3815" page="38" hidden="false"/>
+    <rule id="d71f-5ae1-b4e0-4b4c" name="Charge X" publicationId="475c-bf5d-66fa-3815" page="39" hidden="false"/>
+    <rule id="3de2-a62a-39a8-120a" name="Deadly" publicationId="475c-bf5d-66fa-3815" page="39" hidden="false"/>
+    <rule id="5752-f439-16f0-f908" name="Dire" publicationId="475c-bf5d-66fa-3815" page="39" hidden="false"/>
+    <rule id="11ae-9a10-8bc9-cc77" name="Lasts For One Round" publicationId="475c-bf5d-66fa-3815" page="39" hidden="false"/>
+    <rule id="055d-44a4-62cf-d8cd" name="Magical Attacks" publicationId="475c-bf5d-66fa-3815" page="39" hidden="false"/>
+    <rule id="b9fc-d3bb-51f0-fa18" name="Place" publicationId="475c-bf5d-66fa-3815" page="40" hidden="false"/>
+    <rule id="bcf7-7963-d5d8-34d9" name="Push Away and Move Toward" publicationId="475c-bf5d-66fa-3815" page="40" hidden="false"/>
+    <rule id="4325-2011-aeaa-6879" name="Reroll" publicationId="475c-bf5d-66fa-3815" page="40" hidden="false"/>
+    <rule id="da69-5f52-448c-8940" name="Roll Damage Seperatly" publicationId="475c-bf5d-66fa-3815" page="40" hidden="false"/>
   </sharedRules>
 </gameSystem>
