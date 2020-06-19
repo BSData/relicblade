@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d00c-5854-e4f3-28d1" name="Relicblade" revision="1" battleScribeVersion="2.03" authorName="Konrad" authorUrl="https://relicblade.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme></readme>
+<gameSystem id="d00c-5854-e4f3-28d1" name="Relicblade" revision="2" battleScribeVersion="2.03" authorName="Konrad" authorUrl="https://relicblade.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="475c-bf5d-66fa-3815" name="The Seeker&apos;s Handbook"/>
   </publications>
@@ -51,6 +50,8 @@
     <categoryEntry id="5120-5bf7-cced-9c6e" name="Holy" hidden="false"/>
     <categoryEntry id="97af-ab04-bc43-a6e9" name="Scout" hidden="false"/>
     <categoryEntry id="455d-569c-3170-11e5" name="Nature" hidden="false"/>
+    <categoryEntry id="b474-025b-a081-5588" name="Deep" hidden="false"/>
+    <categoryEntry id="f6be-6964-fa03-f554" name="Bone" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="9627-8b37-b991-c647" name="Standard" hidden="false">
@@ -387,7 +388,7 @@
       <profiles>
         <profile id="04ac-4d70-88df-57cb" name="Dagger" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
           <characteristics>
-            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Melee/Ranged Weapon x2</characteristic>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Melee/Ranged Weapon X2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -630,7 +631,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1469-67e3-fc6c-3e5b" type="min"/>
       </constraints>
       <profiles>
-        <profile id="f139-aa54-7b86-f08e" name="Razor Winds x2" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+        <profile id="f139-aa54-7b86-f08e" name="Razor Winds X2" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
           <characteristics>
             <characteristic name="Type" typeId="a557-76d5-82df-ebac">Magic Spell</characteristic>
           </characteristics>
@@ -670,6 +671,283 @@
       </profiles>
       <costs>
         <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddc8-cca1-b259-ddf8" name="Back Stab" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd5-44ec-8f0c-ba41" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5720-97d2-0b42-d1e9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="21a3-7599-5c56-6868" name="Back Stab" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a54-2a54-49ae-58cc" name="Tail Autotomy" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4417-c2b1-ed95-2021" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d43-9a97-19aa-37d3" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1faa-82ae-fdfc-2779" name="Tail Autotomy" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="74fe-f590-09a6-738a" name="Blood Poisoning" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7360-5a61-4ab6-07f2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a0e-23e3-3cc3-c81e" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="c3ce-c199-12ef-05d8" name="Blood Poisoning" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Magic Spell</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d96e-15b5-9833-8775" name="Witch Fire" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e406-4189-4cfc-d11b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7266-b8e5-6bcd-84b4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e6ce-4662-0e49-3bc5" name="Witch Fire" hidden="false" typeId="1123-c92d-de96-527f" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Type" typeId="0f8e-c588-a4e3-3e60">Magic Spell</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="975e-a67c-cb46-66b9" name="Cerebral Edema" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4aa-8009-739a-e0ea" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4803-09c9-9145-f6b8" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="d274-f40b-7741-d12e" name="Cerebral Edema" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Magic Spell</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a93-65f0-f923-a237" name="Nausea" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4847-5a29-4f6b-79f4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4164-7d27-393a-020b" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="ac0e-18fe-632d-dab5" name="Nausea" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Magic Spell</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b5b-37fa-5ed0-6736" name="Javelin" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ad0-381b-bbbe-28d4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4595-b60a-e3f0-87e8" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="217a-4742-55c7-0f5c" name="Javelin" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Melee/Ranged Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03c9-a01a-68e2-9f49" name="Impale" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0969-cc99-7c08-345d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc31-4956-d403-52cd" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="9308-2c2f-dc2b-782c" name="Impale" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Melee Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c4a9-6bfb-c90f-3ca8" name="Hunter" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e3-d53b-aaea-6755" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50fd-8e84-fcb9-0700" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="8e66-5ce1-d546-dbe2" name="Hunter" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87e2-9735-ce32-0aaf" name="Abuse" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8733-26d5-62c7-89e3" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c6c-355c-50b4-c896" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e50c-bcaa-fbf3-721e" name="Abuse" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a49-7bb1-43c5-b96d" name="Bolas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b77-3eeb-a290-b200" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61fd-8135-3a95-1efb" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="2b72-1692-8747-03e8" name="Bolas" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Ranged Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f20-691a-937d-a17e" name="Whip and Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adfe-46d2-a987-6489" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8212-efde-a021-6937" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1384-fd7b-efb4-5a8a" name="Whip and Blade X2" hidden="false" typeId="1123-c92d-de96-527f" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Type" typeId="0f8e-c588-a4e3-3e60">Melee Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2251-8cfb-f393-290e" name="Sinister Fangs" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e20-8919-4595-9f8a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0778-1c5c-8852-be2e" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="48da-eaee-7be1-2614" name="Sinister Fangs X2" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Natrual Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37f9-9d9d-9bb8-b11d" name="Paralyzing Gaze" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c427-7302-6b08-f903" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="604d-ed6b-c210-edb3" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="2221-7ff4-c7b5-74c9" name="Paralyzing Gaze" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="537b-3879-eb53-daab" name="Bind" hidden="false" targetId="7cf4-5379-07e1-d82b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db80-d8bc-9ca8-8f0a" name="Pitiless" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8661-4779-76b6-6d0b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="703d-87ae-2635-2760" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0697-ac51-331e-f131" name="Pitiless" hidden="false" typeId="1123-c92d-de96-527f" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Type" typeId="0f8e-c588-a4e3-3e60">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72b7-6ed7-84f2-a23f" name="Sludge Mire" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e97-75eb-2589-82c8" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7767-7f73-aea4-84c1" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="b049-4f4c-fec4-bfb9" name="Skudge Mire" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Magic Spell</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5353-72cd-965d-c8ec" name="Apex Predator" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f67-809e-2507-f5e8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="392f-486b-0d3f-c403" name="Apex Predator" hidden="false" typeId="1123-c92d-de96-527f" typeName="Upgrade">
+          <characteristics>
+            <characteristic name="Type" typeId="0f8e-c588-a4e3-3e60">Passive Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1cb8-c51a-a0f2-6b24" name="Tactics" hidden="false" targetId="7f17-4c86-1e96-88a4" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -819,6 +1097,44 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="078f-0de4-4548-f3d4" name="Bone" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6be-6964-fa03-f554" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="8c36-7124-ef71-d0bf" name="Beast" hidden="false" targetId="e521-b4fb-5fbb-e664" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="eb49-dd92-c56e-40d9" name="Apex Predator" hidden="false" collective="false" import="true" targetId="5353-72cd-965d-c8ec" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7734-7cd2-6763-3d4e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="35d8-e201-8694-c58b" name="Beast" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e521-b4fb-5fbb-e664" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="292c-7cba-0d16-4103" name="Beast" hidden="false" targetId="e521-b4fb-5fbb-e664" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="ba0f-d729-3bac-c991" name="Apex Predator" hidden="false" collective="false" import="true" targetId="5353-72cd-965d-c8ec" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f064-2f9f-d053-9759" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="e790-ee4c-4200-a64b" name="Weapons" hidden="false" collective="false" import="true">
@@ -883,6 +1199,32 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="19b8-2022-7753-9f1d" name="Rogue" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6e9-2a3f-8124-f4d2" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="3d5b-d51c-bfff-623b" name="Neurotoxin" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556d-8bc1-8749-1f15" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4f4d-f79f-3461-da55" name="Neurotoxin" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a557-76d5-82df-ebac">Passive Ability</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="5598-f06b-7ec3-f75f" name="Potions" hidden="false" collective="false" import="true">
@@ -898,6 +1240,21 @@
               </constraints>
               <profiles>
                 <profile id="df5d-bab6-60bb-15bd" name="Health Potion" hidden="false" typeId="1123-c92d-de96-527f" typeName="Upgrade">
+                  <characteristics>
+                    <characteristic name="Type" typeId="0f8e-c588-a4e3-3e60">Potion</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cf65-4702-8f25-85b2" name="Acid Shot" page="" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af19-f78c-8250-9dd9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d67e-0405-f496-0356" name="Acid Shot" hidden="false" typeId="1123-c92d-de96-527f" typeName="Upgrade">
                   <characteristics>
                     <characteristic name="Type" typeId="0f8e-c588-a4e3-3e60">Potion</characteristic>
                   </characteristics>
@@ -1024,6 +1381,21 @@
                 <cost name=" Points" typeId="c994-00bd-765c-1937" value="1.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="2ed7-416b-752f-2049" name="Neolithic Effigy" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b166-2734-d198-c2a2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="55b0-897a-084a-21af" name="Neolithic Effigy" hidden="false" typeId="1123-c92d-de96-527f" typeName="Upgrade">
+                  <characteristics>
+                    <characteristic name="Type" typeId="0f8e-c588-a4e3-3e60">Item</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="e203-8ffb-d2ad-5741" name="Wizard" hidden="true" collective="false" import="true">
@@ -1057,6 +1429,32 @@
               </constraints>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="08ed-b559-5f84-b0ae" name="Scout" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="97af-ab04-bc43-a6e9" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="4cf6-39b2-ad61-7a14" name="Dart Trap" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2d2-d3d9-59d8-69bc" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9f99-1127-e388-a2d8" name="Dart Trap" hidden="false" typeId="1123-c92d-de96-527f" typeName="Upgrade">
+                  <characteristics>
+                    <characteristic name="Type" typeId="0f8e-c588-a4e3-3e60">Item</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
@@ -1116,9 +1514,25 @@
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink id="61c6-711d-bdc6-25f8" name="Elemental Smite" hidden="false" collective="false" import="true" targetId="8b87-0b1f-a1e4-b120" type="selectionEntry">
+            <entryLink id="61c6-711d-bdc6-25f8" name="Blood Poisoning" hidden="false" collective="false" import="true" targetId="74fe-f590-09a6-738a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58d4-8056-1044-fcc3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="860b-1e0f-3b2b-eef4" name="Elemental Smite" hidden="false" collective="false" import="true" targetId="8b87-0b1f-a1e4-b120" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="211e-30ed-cd5b-7032" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b144-bdbe-4900-d88c" name="Sludge Mire" hidden="false" collective="false" import="true" targetId="72b7-6ed7-84f2-a23f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0102-5486-3920-67df" type="max"/>
               </constraints>
               <costs>
                 <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
