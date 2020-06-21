@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d00c-5854-e4f3-28d1" name="Relicblade" revision="2" battleScribeVersion="2.03" authorName="Konrad" authorUrl="https://relicblade.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d00c-5854-e4f3-28d1" name="Relicblade" revision="3" battleScribeVersion="2.03" authorName="Konrad" authorUrl="https://relicblade.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="475c-bf5d-66fa-3815" name="The Seeker&apos;s Handbook"/>
   </publications>
@@ -706,10 +706,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="74fe-f590-09a6-738a" name="Blood Poisoning" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7360-5a61-4ab6-07f2" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a0e-23e3-3cc3-c81e" type="min"/>
-      </constraints>
       <profiles>
         <profile id="c3ce-c199-12ef-05d8" name="Blood Poisoning" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
           <characteristics>
@@ -917,10 +913,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="72b7-6ed7-84f2-a23f" name="Sludge Mire" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e97-75eb-2589-82c8" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7767-7f73-aea4-84c1" type="min"/>
-      </constraints>
       <profiles>
         <profile id="b049-4f4c-fec4-bfb9" name="Skudge Mire" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
           <characteristics>
@@ -1207,6 +1199,9 @@
               </conditions>
             </modifier>
           </modifiers>
+          <categoryLinks>
+            <categoryLink id="e101-7c61-a3f6-c26e" name="Rogue" hidden="false" targetId="c6e9-2a3f-8124-f4d2" primary="false"/>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="3d5b-d51c-bfff-623b" name="Neurotoxin" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -1291,6 +1286,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <categoryLinks>
+                <categoryLink id="baa2-5c5c-4781-1db0" name="Rogue" hidden="false" targetId="c6e9-2a3f-8124-f4d2" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
               </costs>
@@ -1450,6 +1448,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <categoryLinks>
+                <categoryLink id="9088-43e1-c381-de20" name="Scout" hidden="false" targetId="97af-ab04-bc43-a6e9" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
               </costs>
@@ -1518,6 +1519,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58d4-8056-1044-fcc3" type="max"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink id="da33-0b3a-7818-6cf2" name="Witch" hidden="false" targetId="cd0e-da7d-d644-b2d0" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="c994-00bd-765c-1937" value="1.0"/>
               </costs>
@@ -1526,6 +1530,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="211e-30ed-cd5b-7032" type="max"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink id="7980-5ab1-c9d9-9671" name="Witch" hidden="false" targetId="cd0e-da7d-d644-b2d0" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
               </costs>
@@ -1534,6 +1541,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0102-5486-3920-67df" type="max"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink id="ad93-d7b6-2ec6-e6f5" name="Witch" hidden="false" targetId="cd0e-da7d-d644-b2d0" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
               </costs>
