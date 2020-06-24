@@ -923,6 +923,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5353-72cd-965d-c8ec" name="Apex Predator" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1087,10 +1090,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9d9d-8c0a-4825-2393" name="Shield Wall" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd6c-7bb6-eadb-827f" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c625-2e74-1f4b-81c5" type="min"/>
-      </constraints>
       <profiles>
         <profile id="24d1-e302-bb95-7a31" name="Shield Wall" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
           <characteristics>
@@ -1098,9 +1097,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="93a3-f859-c99b-c906" name="Bloodthirsty" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1486,10 +1482,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0fe4-a4c9-42a0-ae3b" name="Pig Out" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4937-fb00-5d80-1b4c" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d6-ff82-97d4-7426" type="min"/>
-      </constraints>
       <profiles>
         <profile id="6cc2-4196-fb6a-d44d" name="Pig Out" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
           <characteristics>
@@ -1513,27 +1505,7 @@
         <cost name=" Points" typeId="c994-00bd-765c-1937" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a133-5fc2-86dd-f94f" name="Shield Wall" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d660-eb0e-3aa4-f14d" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bd8-2046-2b66-42bd" type="min"/>
-      </constraints>
-      <profiles>
-        <profile id="975e-73e5-9e13-920b" name="Shield Wall" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
-          <characteristics>
-            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="23c7-a44a-2088-69c9" name="Cudgel" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f81e-cdc1-7c75-1b24" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a853-e5b9-1346-97f9" type="min"/>
-      </constraints>
       <profiles>
         <profile id="8d88-4793-1981-64d3" name="Cudgel" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
           <characteristics>
@@ -1784,9 +1756,6 @@
               </conditions>
             </modifier>
           </modifiers>
-          <categoryLinks>
-            <categoryLink id="d2ad-5469-fb3a-7202" name="Beast" hidden="false" targetId="e521-b4fb-5fbb-e664" primary="false"/>
-          </categoryLinks>
           <entryLinks>
             <entryLink id="bcbc-94f4-2bba-b6e5" name="Brutal Charge" hidden="false" collective="false" import="true" targetId="f32c-72b4-d9e9-73dc" type="selectionEntry">
               <constraints>
@@ -1797,6 +1766,25 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f393-f531-f588-f543" type="max"/>
               </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d535-3bb4-be1e-4cce" name="Shield" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="736f-7d52-e3b6-8c03" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="be6c-5f44-92a6-e72d" name="Shield Wall" hidden="false" collective="false" import="true" targetId="9d9d-8c0a-4825-2393" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99ab-0859-37ac-e5c3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
