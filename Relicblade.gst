@@ -1104,6 +1104,223 @@
         <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="93a3-f859-c99b-c906" name="Bloodthirsty" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0c39-e3d0-057b-9fe0" name="Bloodthirsty" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Passiv</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="707e-c52c-5e3f-dc02" name="Stone Knife" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e5d-5e0a-de71-2293" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0338-2083-e6d0-3aff" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="60e3-aeae-925b-9793" name="Stone Knife" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Natrual Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="9039-d7b1-63af-ec77" name="Long Bow" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3891-e719-2fb5-ddac" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4293-8f0a-525a-3071" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="fbcc-bbf5-bf07-d0ee" name="Long Bow" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Ranged Attack</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d92-21cb-3fc1-4a7f" name="Frailty" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="200b-9b8b-eae1-8307" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c8c-a140-2df2-e49a" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="606f-a40a-0531-ec84" name="Frailty" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b570-b6b4-3813-f9f5" name="Barred Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a166-9ee7-4c66-50dc" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3620-6022-8adf-f097" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="b3d7-b92c-d883-7870" name="Barred Claws X2" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Natrual Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f92-7612-bb13-9e7c" name="Blood Fury" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e0b-eea5-87e6-d7db" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8772-b590-59a3-42f0" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="cc00-e7e3-0561-d711" name="Blood Fury" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Passiv Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93c2-9a27-3fdf-30e6" name="Flying" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f37d-3973-441f-af1b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f838-b653-824f-7bee" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="3a1c-b329-aa3d-1e78" name="Flying" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Passiv Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2126-1a24-1ccf-0daf" name="Gore" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f0-b633-dd0b-d030" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1dc-18db-38f7-8a5d" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="a749-0ac4-e588-912f" name="Gore X2" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Natrual Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8fab-7037-54fc-06cf" name="Leap" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8172-4441-dce6-8fbb" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adf6-8eb9-5e8d-7735" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="275e-e146-b24e-c916" name="Leap" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="b2f3-7829-0a5c-e998" name="Skulk" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b09e-faf9-e416-7995" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f815-920d-4e5f-1398" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="aa1f-8579-3829-dbd1" name="Skulk" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c39-73e6-e9ea-7719" name="Dread Maul" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d87-d958-9864-c3b2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f905-b160-5433-65d5" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="5924-7c79-3905-aa6f" name="Dread Maul" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Melee Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="502e-76db-3eec-7801" name="Reaping Claw" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd7-e6c4-1890-90d5" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="807c-bad9-17f1-9e74" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="776a-4d70-b9b7-b55f" name="Reaping Claw" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Natrual Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e5c6-b94c-9a48-d50d" name="Howl" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b23-55fa-b12d-7c01" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0245-67da-8be4-9e3c" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="97a7-efee-426c-0da3" name="Howl" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32f5-9479-3aee-dcee" name="Construct" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b86c-7b1d-cfdd-25b1" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bda-6a06-2a8b-5644" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="3e47-cdf0-53e9-3c47" name="Construct" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Passiv Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d5e1-a5e8-71da-bbcf" name="Construct" hidden="false" targetId="6c6a-28b9-a454-20c5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="47a3-1882-ff98-1d70" name="Tactics" hidden="false" collective="false" import="true">
@@ -1186,6 +1403,13 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="4568-e29d-0776-31a9" name="Bloodthirsty" hidden="false" collective="false" import="true" targetId="93a3-f859-c99b-c906" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf9d-f0cf-522e-bd79" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="79b8-1892-1ed4-057f" name="General" hidden="false" collective="false" import="true">
           <selectionEntries>
@@ -1287,7 +1511,41 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f064-2f9f-d053-9759" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="bb61-e61c-9b9b-e1ca" name="Bloodthirsty" hidden="false" collective="false" import="true" targetId="93a3-f859-c99b-c906" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93a1-5d79-79b9-ca61" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="aaa1-c847-f599-0708" name="Darkness" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83bb-f26f-6e59-330a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="4557-2c7e-1792-bc4d" name="Rogue" hidden="false" targetId="c6e9-2a3f-8124-f4d2" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="12dd-6a5b-3e62-bff7" name="Dark Machination" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ee-bee8-8b07-0de3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="790e-8d1b-a6a7-a4d0" name="Dark Machination" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
@@ -1371,6 +1629,35 @@
               </constraints>
               <profiles>
                 <profile id="4f4d-f79f-3461-da55" name="Neurotoxin" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a557-76d5-82df-ebac">Passive Ability</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="222d-9882-5a64-7198" name="Darkness" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83bb-f26f-6e59-330a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="6335-97b9-ec35-28d9" name="Rogue" hidden="false" targetId="c6e9-2a3f-8124-f4d2" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="1947-f2b3-af2e-4db1" name="Mark of Violence" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dd8-e0ab-45bc-6b26" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="19cb-432c-833f-03e6" name="Mark of Violence" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
                   <characteristics>
                     <characteristic name="Type" typeId="a557-76d5-82df-ebac">Passive Ability</characteristic>
                   </characteristics>
@@ -1619,6 +1906,35 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="003d-aef1-0174-3e15" name="Darkness" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83bb-f26f-6e59-330a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="a218-997c-6e8f-06b1" name="Rogue" hidden="false" targetId="c6e9-2a3f-8124-f4d2" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="14dc-d5a5-da64-e403" name="Murder of Crows" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a0c-7915-5d13-f22f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b4f5-3d38-b541-decb" name="Murder of Crows" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a557-76d5-82df-ebac">Special Ability</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="1a8e-4095-833c-f2fc" name="Prepared Spells" hidden="false" collective="false" import="true">
@@ -1816,6 +2132,50 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7679-37f5-6480-9900" name="Darkness" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83bb-f26f-6e59-330a" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink id="3439-2549-c4a5-2dfa" name="Rogue" hidden="false" targetId="c6e9-2a3f-8124-f4d2" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="3b7b-d448-471e-fb39" name="Bone Harvest" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08e9-8b7b-64fb-5cbd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="27c4-4347-fe53-4ff7" name="Bone Harvest" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a557-76d5-82df-ebac">Magic Spell</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0691-ed01-2fff-3832" name="Black Shroud" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1511-edfc-40b1-a23b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8e27-d877-16e9-5d59" name="Black Shroud" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Type" typeId="a557-76d5-82df-ebac">Magic Spell</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="6141-eca9-5804-00ca" name="Small Mounts" hidden="false" collective="false" import="true">
@@ -1867,5 +2227,6 @@
     <rule id="bcf7-7963-d5d8-34d9" name="Push Away and Move Toward" publicationId="475c-bf5d-66fa-3815" page="40" hidden="false"/>
     <rule id="4325-2011-aeaa-6879" name="Reroll" publicationId="475c-bf5d-66fa-3815" page="40" hidden="false"/>
     <rule id="da69-5f52-448c-8940" name="Roll Damage Seperatly" publicationId="475c-bf5d-66fa-3815" page="40" hidden="false"/>
+    <rule id="6c6a-28b9-a454-20c5" name="Construct" publicationId="475c-bf5d-66fa-3815" page="43" hidden="false"/>
   </sharedRules>
 </gameSystem>

@@ -288,6 +288,139 @@
         <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="441f-8a83-eea0-3920" name="Dark Watcher" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="5d33-ee6a-100a-900d" name="Bone and Darkness" hidden="false" targetId="be0e-34ec-fbc0-ee7c" primary="true"/>
+        <categoryLink id="d7c5-310b-8ad4-b576" name="Bone" hidden="false" targetId="f6be-6964-fa03-f554" primary="false"/>
+        <categoryLink id="8ed8-fe12-4898-c9cc" name="Darkness" hidden="false" targetId="83bb-f26f-6e59-330a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1b60-b2d3-a75f-bd1e" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b598-57a1-2125-3b74" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="25d1-876d-a573-6d4b" name="Prepared Spells" hidden="false" collective="false" import="true" targetId="1a8e-4095-833c-f2fc" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f409-1950-0f2b-e1f5" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5e8f-c1df-b21b-7327" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9669-a1d5-1c56-f68e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="88a0-1c5d-7c79-7e9e" name="Frailty" hidden="false" collective="false" import="true" targetId="9d92-21cb-3fc1-4a7f" type="selectionEntry"/>
+        <entryLink id="5c09-9fca-d195-dddc" name="Stone Knife" hidden="false" collective="false" import="true" targetId="707e-c52c-5e3f-dc02" type="selectionEntry"/>
+        <entryLink id="dd74-3dbe-274d-06ac" name="Long Bow" hidden="false" collective="false" import="true" targetId="9039-d7b1-63af-ec77" type="selectionEntry"/>
+        <entryLink id="3f64-f9a4-02fd-3c8e" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1d4-b0b3-7a4a-1fa2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c18e-04f9-6cf7-f94e" name="Dark Wanderer" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="a886-0fcb-cc07-ac2c" name="Bone and Darkness" hidden="false" targetId="be0e-34ec-fbc0-ee7c" primary="true"/>
+        <categoryLink id="3fdf-1f52-5e1b-b93c" name="Bone" hidden="false" targetId="f6be-6964-fa03-f554" primary="false"/>
+        <categoryLink id="bfad-09c9-5a45-6983" name="Darkness" hidden="false" targetId="83bb-f26f-6e59-330a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="35b3-b838-018b-2966" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0810-4bce-9936-b8ae" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1453-f2ae-74a7-2fc5" name="Prepared Spells" hidden="false" collective="false" import="true" targetId="1a8e-4095-833c-f2fc" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154d-b4dc-b8c7-a555" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cd1e-149b-1d94-c0ae" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b8-6671-cd31-7da5" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b3aa-c6a1-90b6-c1f1" name="Frailty" hidden="false" collective="false" import="true" targetId="9d92-21cb-3fc1-4a7f" type="selectionEntry"/>
+        <entryLink id="9c42-f24d-cac3-9330" name="Stone Knife" hidden="false" collective="false" import="true" targetId="707e-c52c-5e3f-dc02" type="selectionEntry"/>
+        <entryLink id="1cc0-9428-ac13-f379" name="Dread Maul" hidden="false" collective="false" import="true" targetId="9c39-73e6-e9ea-7719" type="selectionEntry"/>
+        <entryLink id="137b-b58c-880e-e115" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6866-8f6a-fbdd-2920" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f05f-611b-934d-ac55" name="Bone Fury" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="005a-d7bc-e89d-259e" name="Bone and Darkness" hidden="false" targetId="be0e-34ec-fbc0-ee7c" primary="true"/>
+        <categoryLink id="2b0b-edc5-a91f-3b54" name="Bone" hidden="false" targetId="f6be-6964-fa03-f554" primary="false"/>
+        <categoryLink id="ce23-059e-afc7-c0d6" name="Beast" hidden="false" targetId="e521-b4fb-5fbb-e664" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fa98-0053-83f8-91de" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="236c-5085-0c45-27c4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="588b-7c36-aefe-6c6a" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eda2-79de-4d1f-95af" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5cb6-0cd4-324f-5fc1" name="Blood Fury" hidden="false" collective="false" import="true" targetId="1f92-7612-bb13-9e7c" type="selectionEntry"/>
+        <entryLink id="221f-b3bc-b7ab-f9a7" name="Flying" hidden="false" collective="false" import="true" targetId="93c2-9a27-3fdf-30e6" type="selectionEntry"/>
+        <entryLink id="0d4e-5e8d-07b0-dd9c" name="Barred Claws" hidden="false" collective="false" import="true" targetId="b570-b6b4-3813-f9f5" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3064-331c-ee46-7c4d" name="Bone Stalker" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="6d85-9479-d6b8-c03b" name="Bone and Darkness" hidden="false" targetId="be0e-34ec-fbc0-ee7c" primary="true"/>
+        <categoryLink id="be3a-5e70-ce22-d752" name="Bone" hidden="false" targetId="f6be-6964-fa03-f554" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="00b9-3324-f554-c2db" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ec-b218-65e7-b6dd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7b07-3b89-847d-247a" name="Skulk" hidden="false" collective="false" import="true" targetId="b2f3-7829-0a5c-e998" type="selectionEntry"/>
+        <entryLink id="6166-cd61-9954-6091" name="Leap" hidden="false" collective="false" import="true" targetId="8fab-7037-54fc-06cf" type="selectionEntry"/>
+        <entryLink id="75b1-93b4-b236-fb9e" name="Gore" hidden="false" collective="false" import="true" targetId="2126-1a24-1ccf-0daf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e094-25e7-82cb-8f07" name="Bone Construct" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="296a-46e3-a1bf-4e97" name="Bone and Darkness" hidden="false" targetId="be0e-34ec-fbc0-ee7c" primary="true"/>
+        <categoryLink id="6d34-7dc1-d9ed-b8e3" name="Bone" hidden="false" targetId="f6be-6964-fa03-f554" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="26e5-b7a2-6f64-279d" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7529-794e-9f06-bb45" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="132e-4e22-11e5-092c" name="Construct" hidden="false" collective="false" import="true" targetId="32f5-9479-3aee-dcee" type="selectionEntry"/>
+        <entryLink id="7c13-bf82-d6c3-9fbe" name="Howl" hidden="false" collective="false" import="true" targetId="e5c6-b94c-9a48-d50d" type="selectionEntry"/>
+        <entryLink id="6543-05ba-b827-8417" name="Reaping Claw" hidden="false" collective="false" import="true" targetId="502e-76db-3eec-7801" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="12.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
     <catalogueLink id="f0bd-441e-da79-a629" name="Neutral Characters" targetId="fe57-9db4-0afd-faab" type="catalogue" importRootEntries="true"/>
