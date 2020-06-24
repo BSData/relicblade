@@ -421,6 +421,195 @@
         <cost name=" Points" typeId="c994-00bd-765c-1937" value="12.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="983f-84c7-21ce-78e9" name="Pig Warlord" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="0d81-8981-6187-2b95" name="New CategoryLink" hidden="false" targetId="728d-ece6-a084-0095" primary="true"/>
+        <categoryLink id="bdb9-6108-3bb8-244b" name="Pig" hidden="false" targetId="7085-4051-f4d3-fec0" primary="false"/>
+        <categoryLink id="a59e-3eb4-89a6-5fd3" name="Fighter" hidden="false" targetId="79bc-4f83-454a-89e0" primary="false"/>
+        <categoryLink id="5a6c-3e8b-34a0-160b" name="Warlord" hidden="false" targetId="a5af-b108-00e8-e70c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2d0f-9965-fcff-59d1" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="921d-0d06-0075-da71" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bd8e-b456-df13-4a65" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4d4-8d6a-7ed2-1839" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ec44-2415-9365-0c18" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d17d-7372-97ce-a7b7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b20d-beb4-c311-27ad" name="Inhuman Aggression" hidden="false" collective="false" import="true" targetId="7b57-04a5-9f73-06ad" type="selectionEntry"/>
+        <entryLink id="4b10-76eb-644a-52e8" name="Battle Master" hidden="false" collective="false" import="true" targetId="b265-14e1-bd89-dcc3" type="selectionEntry"/>
+        <entryLink id="ff10-3e26-8f88-3824" name="Tireless Onslaught" hidden="false" collective="false" import="true" targetId="d878-37ac-4efc-c437" type="selectionEntry"/>
+        <entryLink id="ea36-7718-976a-c1e2" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72de-b72d-e36a-df35" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="23.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7c6c-dc59-b4f4-3f23" name="Berserker Pig" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="8483-2cc4-c64a-d147" name="New CategoryLink" hidden="false" targetId="728d-ece6-a084-0095" primary="true"/>
+        <categoryLink id="0191-0c3a-e025-d57f" name="Pig" hidden="false" targetId="7085-4051-f4d3-fec0" primary="false"/>
+        <categoryLink id="d778-6eb3-fc83-4e02" name="Barbarian" hidden="false" targetId="3cd4-29d3-1ace-0e2c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dd40-efdf-c027-871d" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16bc-0905-f783-71e7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="498a-325f-84d1-b955" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b5-9609-8b67-7651" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4157-7a14-8cef-538b" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c120-f62f-7695-9033" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="753a-be4d-ffe7-01b7" name="Gore" hidden="false" collective="false" import="true" targetId="2126-1a24-1ccf-0daf" type="selectionEntry"/>
+        <entryLink id="9bf1-c0c1-47d6-1c53" name="Frenzy" hidden="false" collective="false" import="true" targetId="7abc-f0e9-d47a-4280" type="selectionEntry"/>
+        <entryLink id="4c98-69ae-efdf-50fd" name="Carver" hidden="false" collective="false" import="true" targetId="8913-069f-bfb3-c2e2" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="173b-91b2-8688-2132" name="Soldier Pig" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="b77c-58c5-6ad4-16a2" name="New CategoryLink" hidden="false" targetId="728d-ece6-a084-0095" primary="true"/>
+        <categoryLink id="3126-7a41-4edd-0a11" name="Pig" hidden="false" targetId="7085-4051-f4d3-fec0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="148e-7296-922d-89ed" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b206-2c50-1959-bac6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="960a-cf16-69ad-39cc" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de08-d278-521d-a054" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5fae-1de5-8fd6-8f49" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d1f-e966-b99d-2e73" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0eff-45c2-7b21-de2c" name="Gore" hidden="false" collective="false" import="true" targetId="2126-1a24-1ccf-0daf" type="selectionEntry"/>
+        <entryLink id="7516-d8f7-45d7-4e87" name="Tough" hidden="false" collective="false" import="true" targetId="f4d3-8884-0358-4a89" type="selectionEntry"/>
+        <entryLink id="7e53-0379-2899-1d46" name="Halberd" hidden="false" collective="false" import="true" targetId="4d97-69d4-5633-0132" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04f7-7e16-6034-a0a6" name="Raider Pig" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="5a8a-a550-61bc-4054" name="New CategoryLink" hidden="false" targetId="728d-ece6-a084-0095" primary="true"/>
+        <categoryLink id="ac28-506f-e98e-13aa" name="Pig" hidden="false" targetId="7085-4051-f4d3-fec0" primary="false"/>
+        <categoryLink id="add3-b506-ef5d-9647" name="Scout" hidden="false" targetId="97af-ab04-bc43-a6e9" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9264-de36-e0be-d571" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf5-5157-6319-4584" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bdd1-1234-a37b-f881" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5565-7b94-f834-5139" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5ab9-6be4-aebe-e70d" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e489-fde4-ea3a-2c3e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="240e-80eb-5cb8-7f7d" name="Gore" hidden="false" collective="false" import="true" targetId="2126-1a24-1ccf-0daf" type="selectionEntry"/>
+        <entryLink id="0db3-245e-0cfa-7928" name="Dagger" hidden="false" collective="false" import="true" targetId="da81-f63b-ec8d-35d7" type="selectionEntry"/>
+        <entryLink id="d72e-49bc-12b2-beab" name="Hand Axe" hidden="false" collective="false" import="true" targetId="7a07-a2d8-0965-0216" type="selectionEntry"/>
+        <entryLink id="e588-b599-85c7-6b76" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d34b-2b25-962a-b15f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b8f-51a8-4e6a-f4b6" name="Shield Pig" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="cec0-4b4d-f7b9-0822" name="New CategoryLink" hidden="false" targetId="728d-ece6-a084-0095" primary="true"/>
+        <categoryLink id="c9aa-c77b-0b86-3b00" name="Pig" hidden="false" targetId="7085-4051-f4d3-fec0" primary="false"/>
+        <categoryLink id="4aea-94a2-3a90-2876" name="Shield" hidden="false" targetId="736f-7d52-e3b6-8c03" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="de63-a385-6694-fd44" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d29-f140-4a02-211b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="44ce-72b7-7ee0-846c" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af21-c104-3bf2-96da" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b07d-dcb4-a794-b628" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7581-9c06-eb2d-30e5" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8ea5-b096-056b-81d9" name="Gore" hidden="false" collective="false" import="true" targetId="2126-1a24-1ccf-0daf" type="selectionEntry"/>
+        <entryLink id="ca54-6de2-0966-c9f7" name="Tough" hidden="false" collective="false" import="true" targetId="f4d3-8884-0358-4a89" type="selectionEntry"/>
+        <entryLink id="ca80-120f-0465-7af4" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="59f5-7288-0a23-b5f1" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d28-9a36-f31e-893e" name="Axe Pig" page="" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="fbe9-9e76-face-0b3d" name="New CategoryLink" hidden="false" targetId="728d-ece6-a084-0095" primary="true"/>
+        <categoryLink id="19ab-01e1-3023-8c0b" name="Pig" hidden="false" targetId="7085-4051-f4d3-fec0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9dee-8af3-6995-bd95" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d173-c7cc-069f-0a2e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="79de-04eb-a3f3-3e75" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62c2-1a11-30a6-7256" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8aa2-908f-b0e2-99ad" name="Weapons" hidden="false" collective="false" import="true" targetId="e790-ee4c-4200-a64b" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a2-0a7d-96c7-b0f0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b0cd-9466-6cf2-d6c4" name="Gore" hidden="false" collective="false" import="true" targetId="2126-1a24-1ccf-0daf" type="selectionEntry"/>
+        <entryLink id="9eb3-6084-b0fc-1000" name="Tough" hidden="false" collective="false" import="true" targetId="f4d3-8884-0358-4a89" type="selectionEntry"/>
+        <entryLink id="9454-2eb6-9c92-f558" name="Battle Axe" hidden="false" collective="false" import="true" targetId="b290-a2c1-c149-f35d" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="14.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
     <catalogueLink id="f0bd-441e-da79-a629" name="Neutral Characters" targetId="fe57-9db4-0afd-faab" type="catalogue" importRootEntries="true"/>
