@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fcea-b4cc-1973-7c4b" name="Path of the Advocate" revision="1" battleScribeVersion="2.03" authorName="Konrad" library="false" gameSystemId="d00c-5854-e4f3-28d1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fcea-b4cc-1973-7c4b" name="Path of the Advocate" revision="2" battleScribeVersion="2.03" authorName="Konrad" library="false" gameSystemId="d00c-5854-e4f3-28d1" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="29cf-1310-6e84-3c7f" name="Stonekin Battleborn" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
@@ -257,6 +257,36 @@
         <entryLink id="8bdf-9ab8-0a6b-dee1" name="Razor Winds" hidden="false" collective="false" import="true" targetId="f39f-7a93-77e8-d067" type="selectionEntry"/>
         <entryLink id="02ca-f396-b143-ca79" name="Chinook" hidden="false" collective="false" import="true" targetId="2903-d032-acaf-7c47" type="selectionEntry"/>
         <entryLink id="edfe-ce7a-effb-bf8b" name="Read the Winds" hidden="false" collective="false" import="true" targetId="7449-462d-68e0-cc97" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ef6-13ba-fd36-8486" name="Lotus Bladesong" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="4493-c0b8-5b57-7b14" name="New CategoryLink" hidden="false" targetId="af87-208c-d1c9-4dde" primary="true"/>
+        <categoryLink id="0e03-24fa-6792-b42d" name="Knight" hidden="false" targetId="d348-be80-cdcb-6064" primary="false"/>
+        <categoryLink id="08f2-2af7-530f-b5b0" name="Lotus" hidden="false" targetId="c162-8229-6072-c2ba" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1caf-16d0-3c7b-6774" name="Items" hidden="false" collective="false" import="true" targetId="ee3a-8298-0d07-dfdd" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edfe-a518-41ae-90c4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="afd0-d8fe-fddc-c528" name="Potions" hidden="false" collective="false" import="true" targetId="5598-f06b-7ec3-f75f" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="703a-aa61-a2c2-5336" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="223a-dc65-aabf-b73e" name="Tactics" hidden="false" collective="false" import="true" targetId="47a3-1882-ff98-1d70" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743b-0b0a-c3dc-c6a3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="92f0-940d-2f4d-b43d" name="Poetic Grace" hidden="false" collective="false" import="true" targetId="64d8-3228-77c9-b016" type="selectionEntry"/>
+        <entryLink id="0f6e-779f-e879-7adb" name="Singing Blade" hidden="false" collective="false" import="true" targetId="b114-47d5-2f5e-9a5d" type="selectionEntry"/>
+        <entryLink id="cbe7-12a9-cf40-bfaf" name="Perfect Harmony" hidden="false" collective="false" import="true" targetId="f755-1a34-8cf0-1db1" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c994-00bd-765c-1937" value="26.0"/>

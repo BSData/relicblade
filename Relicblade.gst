@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d00c-5854-e4f3-28d1" name="Relicblade" revision="5" battleScribeVersion="2.03" authorName="Konrad" authorUrl="https://relicblade.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d00c-5854-e4f3-28d1" name="Relicblade" revision="6" battleScribeVersion="2.03" authorName="Konrad" authorUrl="https://relicblade.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="475c-bf5d-66fa-3815" name="The Seeker&apos;s Handbook"/>
   </publications>
@@ -55,6 +55,7 @@
     <categoryEntry id="7085-4051-f4d3-fec0" name="Pig" hidden="false"/>
     <categoryEntry id="83bb-f26f-6e59-330a" name="Darkness" hidden="false"/>
     <categoryEntry id="a5af-b108-00e8-e70c" name="Warlord" hidden="false"/>
+    <categoryEntry id="c162-8229-6072-c2ba" name="Lotus" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="9627-8b37-b991-c647" name="Standard" hidden="false">
@@ -1097,6 +1098,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="93a3-f859-c99b-c906" name="Bloodthirsty" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1517,6 +1521,54 @@
         <cost name=" Points" typeId="c994-00bd-765c-1937" value="-2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b114-47d5-2f5e-9a5d" name="Singing Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf17-a60b-f900-98b5" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c2e-0aaa-5b1e-c706" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="3d8b-3ea2-ae5e-47ed" name="Singing Blade X3" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Melee Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f755-1a34-8cf0-1db1" name="Perfect Harmony" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e03-10b9-9b95-44da" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45b0-4e3d-f49a-dd11" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="402f-4849-5b00-eb1f" name="Perfect Harmony" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Passiv Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64d8-3228-77c9-b016" name="Poetic Grace" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd6-3795-5f59-63a0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="560a-91e2-e61e-55e5" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="091f-b8ae-e371-2118" name="Poetic Grace" hidden="false" typeId="fda2-a040-a0b4-17bd" typeName="Action">
+          <characteristics>
+            <characteristic name="Type" typeId="a557-76d5-82df-ebac">Passiv Ability</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" Points" typeId="c994-00bd-765c-1937" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="47a3-1882-ff98-1d70" name="Tactics" hidden="false" collective="false" import="true">
@@ -1787,6 +1839,25 @@
               </costs>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7d98-da43-b38b-64bd" name="Knight" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d348-be80-cdcb-6064" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="aee1-82c5-0c43-e4f6" name="Knightly Challenge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3e6-bc63-eedf-4300" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c994-00bd-765c-1937" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
